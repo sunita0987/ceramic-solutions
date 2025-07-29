@@ -12,6 +12,8 @@ import Header from "./components/Header";
 import ServicesData from "./components/ServicesData";
 import Choose from "./components/Choose";
 import Customer from "./components/Customer";
+import Works from "./components/Works";
+import Touch from "./components/Touch";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <ServicesData />
         <Choose/>
         <Customer/>
+        <Works/>
+        <Touch/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

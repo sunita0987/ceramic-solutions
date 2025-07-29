@@ -77,11 +77,29 @@ export const SLIDER_DATA = [
     text: `As a fitness enthusiast, I was skeptical about resistance bands at first. But after trying these, I'm a believer. The quality is top-notch, and they've become an integral part of my workout routine. I can't believe how versatile they are.`,
     rating: 5,
   },
-   {
+  {
     name: "Mark T.",
     title: "Fitness enthusiast",
     image: mark,
     text: `As a fitness enthusiast, I was skeptical about resistance bands at first. But after trying these, I'm a believer. The quality is top-notch, and they've become an integral part of my workout routine. I can't believe how versatile they are.`,
     rating: 5,
+  },
+];
+
+export const WORKS_DATA = [
+  {
+    title: "Contact us",
+    description:
+      "Lörem ipsum deligen vuprer diar faktigt på dehädiska att sara. Persion. Repp löng blippbetalning. Megaliga fadat om än dening",
+  },
+  {
+    title: "Get a Quote",
+    description:
+      "Lörem ipsum deligen vuprer diar faktigt på dehädiska att sara. Persion. Repp löng blippbetalning. Megaliga fadat om än dening",
+  },
+  {
+    title: "Get your Work Done",
+    description:
+      "Lörem ipsum deligen vuprer diar faktigt på dehädiska att sara. Persion. Repp löng blippbetalning. Megaliga fadat om än dening",
   },
 ];

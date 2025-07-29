@@ -57,9 +57,6 @@ const Choose = () => {
               </div>
             </div>
           </div>
-
-
-
           <button className="mt-8 bg-[#FF0000] hover:bg-red-400 cursor-pointer text-[#ffffff] font-bold py-2 px-6 rounded-full transition duration-300">
             Get A Quote
           </button>
