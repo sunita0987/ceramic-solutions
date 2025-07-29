@@ -6,6 +6,10 @@ import wall from "../assets/images/walltilling.png";
 import ada from "../assets/images/ada.png";
 import fireplace from "../assets/images/fireplace.png";
 
+import mark from "../assets/images/mark.png";
+import markb from "../assets/images/markb.png";
+import markc from "../assets/images/markc.png";
+
 export const SERVICES_DATA = [
   {
     title: "Kitchen Backsplash",
@@ -48,5 +52,36 @@ export const SERVICES_DATA = [
     image: fireplace,
     description:
       "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. ",
+  },
+];
+
+export const SLIDER_DATA = [
+  {
+    name: "Mark T.",
+    title: "Fitness enthusiast",
+    image: mark,
+    text: `As a fitness enthusiast, I was skeptical about resistance bands at first. But after trying these, I'm a believer. The quality is top-notch, and they've become an integral part of my workout routine. I can't believe how versatile they are.`,
+    rating: 5,
+  },
+  {
+    name: "Mark T.",
+    title: "Fitness enthusiast",
+    image: markb,
+    text: `As a fitness enthusiast, I was skeptical about resistance bands at first. But after trying these, I'm a believer. The quality is top-notch, and they've become an integral part of my workout routine. I can't believe how versatile they are.`,
+    rating: 5,
+  },
+  {
+    name: "Mark T.",
+    title: "Fitness enthusiast",
+    image: markc,
+    text: `As a fitness enthusiast, I was skeptical about resistance bands at first. But after trying these, I'm a believer. The quality is top-notch, and they've become an integral part of my workout routine. I can't believe how versatile they are.`,
+    rating: 5,
+  },
+   {
+    name: "Mark T.",
+    title: "Fitness enthusiast",
+    image: mark,
+    text: `As a fitness enthusiast, I was skeptical about resistance bands at first. But after trying these, I'm a believer. The quality is top-notch, and they've become an integral part of my workout routine. I can't believe how versatile they are.`,
+    rating: 5,
   },
 ];

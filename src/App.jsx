@@ -11,6 +11,7 @@ import Quote from "./pages/Quote";
 import Header from "./components/Header";
 import ServicesData from "./components/ServicesData";
 import Choose from "./components/Choose";
+import Customer from "./components/Customer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Header />
         <ServicesData />
         <Choose/>
+        <Customer/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
