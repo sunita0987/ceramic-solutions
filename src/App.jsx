@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <Router>
-        <Header />
+        {/* <Header /> */}
         <ServicesData />
         <Choose/>
         <Customer/>
