@@ -10,6 +10,8 @@ import mark from "../assets/images/mark.png";
 import markb from "../assets/images/markb.png";
 import markc from "../assets/images/markc.png";
 
+import post from "../assets/images/blog.png";
+
 export const SERVICES_DATA = [
   {
     title: "Kitchen Backsplash",
@@ -101,5 +103,26 @@ export const WORKS_DATA = [
     title: "Get your Work Done",
     description:
       "Lörem ipsum deligen vuprer diar faktigt på dehädiska att sara. Persion. Repp löng blippbetalning. Megaliga fadat om än dening",
+  },
+];
+
+export const BLOG_POSTS = [
+  {
+    id: 1,
+    title: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. ",
+    // subtitle: "Astrobel: Sutaveligen. Rodod Bänera Viliga.",
+    image: post,
+  },
+  {
+    id: 2,
+    title: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. ",
+    // subtitle: "Astrobel: Sutaveligen. Rodod Bänera Viliga.",
+    image: post,
+  },
+  {
+    id: 3,
+    title: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. ",
+    // subtitle: "Astrobel: Sutaveligen. Rodod Bänera Viliga.",
+    image: post,
   },
 ];

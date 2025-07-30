@@ -14,6 +14,7 @@ import Choose from "./components/Choose";
 import Customer from "./components/Customer";
 import Works from "./components/Works";
 import Touch from "./components/Touch";
+import Blog from "./components/Blog";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Customer/>
         <Works/>
         <Touch/>
+        <Blog/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
