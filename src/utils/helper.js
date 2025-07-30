@@ -131,3 +131,26 @@ export const FAQ_DATA = [
   "Ipsum koda astrobel: sutaveligen. Rodod bänëra viliga.",
   "Rodod bänëra viliga. Pregigt primasofï dede facebooka",
 ];
+
+export const AREA_DATA = [
+  "Knoxville",
+  "Sevierville",
+  "Maynardville",
+  "Knoxville",
+  "Sevierville",
+  "Maynardville",
+  "Knoxville",
+  "Sevierville",
+  "Maynardville",
+  "Knoxville",
+  "Sevierville",
+  "Maynardville",
+  "Knoxville",
+  "Sevierville",
+  "Maynardville",
+  "Knoxville",
+  "Sevierville",
+  "Maynardville",
+  "Knoxville",
+  "Sevierville",
+];

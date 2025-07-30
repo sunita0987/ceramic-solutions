@@ -16,6 +16,7 @@ import Works from "./components/Works";
 import Touch from "./components/Touch";
 import Blog from "./components/Blog";
 import Faq from "./components/Faq";
+import Area from "./components/Area";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Touch/>
         <Blog/>
         <Faq/>
+        <Area/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
