@@ -9,7 +9,7 @@ const Customer = () => {
         <h2 className="text-5xl md:text-5xl font-semibold text-[#000000]">
           What Our Customers Say
         </h2>
-        <p className="text-[#000000] mt-7 w-[430px] mx-auto text-sm">
+        <p className="text-[#000000] mt-7 w-[430px] mx-auto text-sm sm:text-sm mb-6 max-w-xl">
           Lörem ipsum koda astrobel: sutaveligen. Rodod bänena viliga. Pregit
           primasof dede facebooka: förutom tivalt. Fejkade
         </p>
@@ -44,5 +44,4 @@ const Customer = () => {
     </section>
   );
 };
-
 export default Customer;
