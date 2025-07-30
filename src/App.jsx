@@ -15,6 +15,7 @@ import Customer from "./components/Customer";
 import Works from "./components/Works";
 import Touch from "./components/Touch";
 import Blog from "./components/Blog";
+import Faq from "./components/Faq";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Works/>
         <Touch/>
         <Blog/>
+        <Faq/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

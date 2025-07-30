@@ -110,19 +110,24 @@ export const BLOG_POSTS = [
   {
     id: 1,
     title: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. ",
-    // subtitle: "Astrobel: Sutaveligen. Rodod Bänera Viliga.",
     image: post,
   },
   {
     id: 2,
     title: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. ",
-    // subtitle: "Astrobel: Sutaveligen. Rodod Bänera Viliga.",
     image: post,
   },
   {
     id: 3,
     title: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. ",
-    // subtitle: "Astrobel: Sutaveligen. Rodod Bänera Viliga.",
     image: post,
   },
+];
+
+export const FAQ_DATA = [
+  "Lörem ipsum koda astrobel: sutaveligen.",
+  "Rodod bänëra viliga",
+  "Pregigt primasofï dede facebooka: förutom",
+  "Ipsum koda astrobel: sutaveligen. Rodod bänëra viliga.",
+  "Rodod bänëra viliga. Pregigt primasofï dede facebooka",
 ];
