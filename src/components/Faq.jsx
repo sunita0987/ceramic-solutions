@@ -52,7 +52,6 @@
 // }
 // export default Faq;
 
-
 import { useState } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { FAQ_DATA } from "../utils/helper";
