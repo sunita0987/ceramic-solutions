@@ -4,8 +4,9 @@ import {
   FaPhoneAlt,
   FaFacebookF,
   FaInstagram,
-  FaTwitter,
+  // FaTwitter,
   FaLinkedinIn,
+  FaTwitter,
 } from "react-icons/fa";
 import footer from "../assets/images/footerlogo.png";
 

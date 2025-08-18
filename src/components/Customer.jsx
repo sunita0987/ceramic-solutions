@@ -19,7 +19,7 @@ const Customer = () => {
           {SLIDER_DATA.map((t, index) => (
             <div
               key={index}
-              className="bg-[#ffffff]  shadow-md rounded-xl p-6 mx-4 w-80 flex-shrink-0"
+              className="bg-[#ffffff]  shadow-xl rounded-xl p-6 mx-4 w-80 "
             >
               <div className="flex items-center mb-3">
                 <img

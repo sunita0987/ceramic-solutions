@@ -18,6 +18,7 @@ import Blog from "./components/Blog";
 import Faq from "./components/Faq";
 import Area from "./components/Area";
 import Footer from "./components/Footer";
+import BackToTop from "./common/BackToTop";
 
 function App() {
   return (
@@ -25,21 +26,22 @@ function App() {
       <Router>
         <Header />
         <ServicesData />
-        <Choose/>
-        <Customer/>
-        <Works/>
-        <Touch/>
-        <Blog/>
-        <Faq/>
-        <Area/>
-        <Footer/>
+        <Choose />
+        <Customer />
+        <Works />
+        <Touch />
+        <Blog />
+        <Faq />
+        <Area />
+        <Footer />
+        <BackToTop />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/quote" element={<Quote />} />
+          <Route path="/" />
+          <Route path="/about" />
+          <Route path="/services" />
+          <Route path="/portfolio" />
+          <Route path="/contact" />
+          <Route path="/quote" />
         </Routes>
       </Router>
     </>
